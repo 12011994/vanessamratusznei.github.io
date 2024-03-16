@@ -321,4 +321,21 @@
         border: 0;
     }
 
+    .cursos-title {
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .cursos-box {
+        flex-basis: calc(100% - 20px); /* Ajusta a largura base para ocupar 100% da largura da tela, considerando a margem */
+        max-width: calc(100% - 20px); /* Ajusta a largura máxima para ocupar 100% da largura da tela, considerando a margem */
+        margin-right: 0;
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    .cursos-box p:first-child {
+        font-size: 17px;
+    }
+
 }

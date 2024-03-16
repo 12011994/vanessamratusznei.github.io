@@ -65,11 +65,13 @@
 
 #bio-container p {
     margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.3;
 }
 
 #bio-container #welcome-text {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #bio-image {
@@ -112,6 +114,7 @@
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
+    font-size: 15px;
 }
 
 #email-container ion-icon {
@@ -136,6 +139,8 @@
 .description {
     max-width: 75%;
     margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.3;
 }
 
 #btn-projects {
